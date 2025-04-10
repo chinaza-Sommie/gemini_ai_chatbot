@@ -18,7 +18,7 @@ chatForm.onsubmit = async function(event) {
         addMessage("user", messageme);
         userMessage.value = "";
 
-        const processResponse = await fetch('https://gemini-ai-chatbot-4h9l.onrender.com/chat', {
+        const processResponse = await fetch('/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
