@@ -11,12 +11,11 @@
     
     <div class="chat-container grid md:grid-cols-2 grid-cols-1 gap-2 h-screen" >
         <div class="hidden md:block">
-            <img src="{{ url_for('static', filename='ironman-home.jpg') }}" style="width: 100%;"/>
+            <img src="{{ url_for('static', filename='images/ironman-home.jpg') }}" style="width: 100%;"/>
         </div>
         <div class="flex flex-col px-2 items-center">
             
-            <div class="absolute inset-0 md:hidden bg-cover bg-center bg-no-repeat opacity-20" 
-            style="background-image: url('{{ url_for('static', filename='ironman-home.jpg') }}');">
+            <div class="mobile-bg-image absolute inset-0 md:hidden bg-cover bg-center bg-no-repeat opacity-20" >
             </div>
             <h1>IRONMAN CHATBOT</h1>
             <p class="text-base md:text-lg text-white mb-8">
@@ -25,7 +24,7 @@
             <a href="{{ url_for('chatbot')}}"><button class="bg-[#a70900] hover:bg-[#870801] text-white font-bold py-2 px-8 rounded mt-8"> Start Chat</button></a>
         </div>
     </div>
-    
+
     <!-- <script src="{{ url_for('static', filename='scripts.js') }}"></script> -->
   </body>
 </html>
