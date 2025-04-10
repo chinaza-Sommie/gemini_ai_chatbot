@@ -1,7 +1,7 @@
 import { addMessage } from './addMessage.js';
 
 window.onload = function() {
-    
+
 const chatForm = document.getElementById("chatForm");
 const userMessage = document.getElementById("user-message");
 

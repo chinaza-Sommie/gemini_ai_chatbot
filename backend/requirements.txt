@@ -2,3 +2,5 @@ Flask
 python-dotenv
 google-generativeai
 gunicorn==20.1.0
+flask-cors==3.1.1
+requests==2.26.0

@@ -2,9 +2,10 @@ from flask import Flask, render_template, request, jsonify
 import os
 from dotenv import load_dotenv
 from functions.chatbot_handler import get_gemini_response
-
+from flask_cors import CORS
 
 app = Flask(__name__, static_folder='../frontend/assets', template_folder='../frontend')
+CORS(app)
 load_dotenv()
 
 @app.route('/', methods=['GET'])

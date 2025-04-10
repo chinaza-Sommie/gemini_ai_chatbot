@@ -4,7 +4,10 @@
   "description": "An AI chatbot that behaves like the fictional character, Iron man. The imitates the behaviour of the fictional character iron man",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "npx live-server frontend", 
+    "build": "webpack", 
+    "dev": "npm run start"
   },
   "keywords": [],
   "author": "",
