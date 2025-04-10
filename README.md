@@ -44,14 +44,19 @@ Make sure you have Node.js installed. Then, install the frontend dependencies:
     cd frontend
     npm install
 
-Running the Application
+To Run the Application
 Start the Backend (Flask App)
     cd backend
     python app.py
 
+Run the application by :
+    cd frontend
+    npm run start
 
+    OR visit:
+    https://iron-man-chatbot.netlify.app/
 
-Usage:
+Usage (local):
     http://127.0.0.1:5000/
 
 
