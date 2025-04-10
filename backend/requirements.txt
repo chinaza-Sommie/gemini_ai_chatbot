@@ -1,3 +1,4 @@
 Flask
 python-dotenv
 google-generativeai
+gunicorn==20.1.0
