@@ -26,7 +26,7 @@ To get the project up and running on your local machine, follow these steps:
 
 ### 1. Clone the repository
 
-```bash
+
 clone the repository
 cd fictional-character-chatbot
 
@@ -53,10 +53,10 @@ Run the application by :
     cd frontend
     npm run start
 
-    OR visit:
+### OR visit:
     https://iron-man-chatbot.netlify.app/
 
-Usage (local):
+### Usage (local):
     http://127.0.0.1:5000/
 
 
