@@ -8,7 +8,7 @@ This chatbot uses Google's Gemini API to simulate a conversation with a fictiona
 
 ## Table of Contents
 
-- [Description](#description)
+- [Description](#descriptions)
 - [Access Online URL](#AccessOnlineURL)
 - [Installation](#installation)
 - [Usage](#usage)
