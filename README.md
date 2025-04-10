@@ -4,7 +4,7 @@ An AI chatbot that behaves like the fictional character, Iron man. The imitates 
 
 This chatbot uses Google's Gemini API to simulate a conversation with a fictional character, specifically **Tony Stark** (Iron Man). The chatbot responds with witty, sharp dialogue, staying true to Tony Stark's character.
 
-![Chatbot Screenshot](frontend/images/ironman-home.jpg)
+![Chatbot Screenshot](frontend/assets/images/ironman-home.jpg)
 
 ## Table of Contents
 
