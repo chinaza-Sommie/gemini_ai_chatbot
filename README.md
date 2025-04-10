@@ -44,11 +44,15 @@ Make sure you have Node.js installed. Then, install the frontend dependencies:
     cd frontend
     npm install
 
-Running the Application
+To the Application:
+
 Start the Backend (Flask App)
     cd backend
     python app.py
 
+Run the Application from frontend
+    cd frontend
+    npm run start
 
 Usage:
     http://127.0.0.1:5000/
