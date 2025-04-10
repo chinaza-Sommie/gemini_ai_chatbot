@@ -9,6 +9,7 @@ This chatbot uses Google's Gemini API to simulate a conversation with a fictiona
 ## Table of Contents
 
 - [Description](#description)
+- [Access Online URL](#AccessOnlineURL)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployment](#deployment)
@@ -19,6 +20,10 @@ This chatbot uses Google's Gemini API to simulate a conversation with a fictiona
 ## Description
 
 This project is built to create a chatbot that uses Google’s Gemini API to provide responses in the voice and personality of **Tony Stark** (Iron Man). The backend is built using Flask and the frontend is a simple static website that allows users to interact with the chatbot.
+
+## To Access Online
+- Access this app online on netlify using the link below:
+https://iron-man-chatbot.netlify.app/chatbot
 
 ## Installation
 
