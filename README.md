@@ -49,9 +49,6 @@ Start the Backend (Flask App)
     cd backend
     python app.py
 
--- If you want to start the frontend
-        cd frontend
-        npx live-server
 
 Usage:
     http://127.0.0.1:5000/
