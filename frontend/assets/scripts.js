@@ -11,9 +11,9 @@ input.addEventListener('focus', () => {
     parent.classList.add('focused');
 });
 
-input.addEventListener('blur', () => {
-    parent.classList.remove('focused');
-});
+// input.addEventListener('blur', () => {
+//     parent.classList.remove('focused');
+// });
 
 
 // ------ HANDLING CHAT OPERATION
