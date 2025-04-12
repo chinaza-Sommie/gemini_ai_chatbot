@@ -4,11 +4,12 @@ An AI chatbot that behaves like the fictional character, Iron man. The imitates 
 
 This chatbot uses Google's Gemini API to simulate a conversation with a fictional character, specifically **Tony Stark** (Iron Man). The chatbot responds with witty, sharp dialogue, staying true to Tony Stark's character.
 
-![Chatbot Screenshot](frontend/images/ironman-home.jpg)
+![Chatbot Screenshot](frontend/assets/images/ironman-logo.webp)
 
 ## Table of Contents
 
 - [Description](#description)
+- [Access Online URL](#AccessOnlineURL)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployment](#deployment)
@@ -20,13 +21,17 @@ This chatbot uses Google's Gemini API to simulate a conversation with a fictiona
 
 This project is built to create a chatbot that uses Google’s Gemini API to provide responses in the voice and personality of **Tony Stark** (Iron Man). The backend is built using Flask and the frontend is a simple static website that allows users to interact with the chatbot.
 
+## To Access Online
+- Access this app online on netlify using the link below:
+https://iron-man-chatbot.netlify.app/chatbot
+
 ## Installation
 
 To get the project up and running on your local machine, follow these steps:
 
 ### 1. Clone the repository
 
-```bash
+
 clone the repository
 cd fictional-character-chatbot
 
@@ -53,10 +58,10 @@ Run the application by :
     cd frontend
     npm run start
 
-    OR visit:
+### OR visit:
     https://iron-man-chatbot.netlify.app/
 
-Usage (local):
+### Usage (local):
     http://127.0.0.1:5000/
 
 
