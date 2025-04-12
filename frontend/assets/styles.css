@@ -51,7 +51,21 @@ body{
     background-repeat: no-repeat;
 }
 
+#input-area{
+    padding-bottom: 1px;
+}
+
 #chatbot-main form{
     background-image: radial-gradient(circle, #000000b8, black, black);
     /* opacity: 0.8; */
+}
+
+@media (max-width: 600px) {
+    
+    #input-area{
+        padding-bottom: 25%;
+    }
+    #input-area.focused{
+        padding-bottom: 1px;
+    }
 }
