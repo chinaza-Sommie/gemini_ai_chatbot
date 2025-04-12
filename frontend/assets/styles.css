@@ -63,9 +63,9 @@ body{
 
 @media (max-width: 600px) {
     #chatForm{
-        padding-top: 10%;
+        padding-top: 20%;
     }
-    
+
     #input-area{
         padding-bottom: 25%;
     }
