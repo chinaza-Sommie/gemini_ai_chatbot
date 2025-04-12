@@ -61,11 +61,11 @@ body{
 }
 
 @media (max-width: 600px) {
-    #chatForm{
+/*     #chatForm{
         padding-top: 10%;
-    }
+    } */
     #input-area{
-        padding-bottom: 35%;
+        padding-bottom: 25%;
     }
     #input-area.focused{
         padding-bottom: 1px;
